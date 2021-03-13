@@ -1,0 +1,89 @@
+/* classes section */
+
+
+.grade{
+    width: 100%;
+    height: 600px;
+    background: black;
+}
+.grade .grade-content{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+}
+.grade .grade-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    transition: all 0.3s ease;
+    width: 40%;
+    height: 300px;
+}
+
+.grade .grade-content .card:hover{
+    background: crimson;
+}
+
+.grade .grade-content .card .box {
+    transition: all 0.3s ease;
+}
+
+.grade .grade-content .card:hover .box{
+    transform: scale(1.05);
+}
+
+.grade .grade-content .card:hover .box .btn{
+    transition: all 0.5s ease;
+}
+
+.grade .grade-content .card:hover .box .btn{
+    background: white;
+    color: black;
+    border-radius: 30px;
+}
+.grade .grade-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+
+.grade .grade-content .card:hover i{
+    color: #fff;
+}
+
+.grade .grade-content .card .text{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0 7px 0;
+    color: white;
+    border-bottom: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.grade .grade-content .card .box p{
+    color: white;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.grade .grade-content .card .box .btn{
+    height: 60px;
+    width: 140px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: crimson;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+
+}
